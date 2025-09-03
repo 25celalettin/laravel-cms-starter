@@ -1,0 +1,99 @@
+# Laravel
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+laravel.log
+
+# Database
+*.sqlite
+*.sqlite-journal
+
+# Compiled assets
+/public/css
+/public/js
+/public/mix-manifest.json
+
+# PHPUnit
+.phpunit.result.cache
+/coverage
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+
+# Cache
+bootstrap/cache/*
+storage/app/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*
+
+# Keep directories
+!storage/app/.gitkeep
+!storage/app/public/.gitkeep
+!storage/framework/.gitkeep
+!storage/framework/cache/.gitkeep
+!storage/framework/sessions/.gitkeep
+!storage/framework/views/.gitkeep
+!storage/logs/.gitkeep
+
+# Ignore user uploaded files
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# Composer
+composer.phar
+
+# NPM
+package-lock.json
+yarn.lock
+
+# Docker
+docker-compose.override.yml
+
+# Local development
+.env.local
+.env.*.local
+
+# Sail
+docker-compose.override.yml
